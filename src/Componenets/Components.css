@@ -1,0 +1,75 @@
+.adminside-conatiner{
+    background-color: gray;
+    width: 22vh;
+    height: 92vh;
+}
+/* .admin-lists{
+    margin-top: 50px;
+} */
+.admin-li{
+    padding: 10px 0px;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+.admintop-container{
+    background-color: gray;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-mini{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vh;
+}
+.cmp-name{
+    color: whitesmoke;
+    font-size: 25px;
+}
+/* .cmp-img{
+    height: 50px;
+} */
+.img-card{
+   display: flex;
+   align-items: center;
+   width: 5vh;
+   justify-content: center;
+}
+
+
+
+
+
+.top-container{
+    background-color: rgb(8, 152, 219);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.side-conatiner{
+    width: 22vh;
+    height: 92vh;    
+    background-color: rgb(8, 152, 219);
+}
+.sidebar-li{
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.side-lists{
+    padding: 20px;
+}
+
+
+.portal-card{
+    display: flex;
+}
+.adminside-link{
+    text-decoration: none;
+    color: whitesmoke;
+}
