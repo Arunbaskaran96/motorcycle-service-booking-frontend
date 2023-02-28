@@ -12,7 +12,7 @@ function EmployerDetails() {
 
     const getEmployer=async()=>{
         try {
-            const emp=await axios.get(`http://localhost:8000/employer/${params.id}`,{
+            const emp=await axios.get(`https://motorcycle-service-app.onrender.com/employer/${params.id}`,{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

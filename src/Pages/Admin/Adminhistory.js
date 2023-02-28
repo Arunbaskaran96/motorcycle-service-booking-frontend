@@ -13,7 +13,7 @@ function Adminhistory() {
 
     const getHistory=async()=>{
         try {
-            const his=await axios.get("http://localhost:8000/completedbookingdetails",{
+            const his=await axios.get("https://motorcycle-service-app.onrender.com/completedbookingdetails",{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

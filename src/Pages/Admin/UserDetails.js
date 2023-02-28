@@ -14,7 +14,7 @@ function UserDetails() {
 
     const getUser=async()=>{
         try {
-            const newuser=await axios.get(`http://localhost:8000/user/${params.id}`,{
+            const newuser=await axios.get(`https://motorcycle-service-app.onrender.com/user/${params.id}`,{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

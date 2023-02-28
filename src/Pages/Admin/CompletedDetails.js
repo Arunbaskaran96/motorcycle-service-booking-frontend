@@ -13,7 +13,7 @@ function CompletedDetails() {
 
     const getHistory=async()=>{
         try {
-            const his=await axios.get(`http://localhost:8000/completed/${params.id}`,{
+            const his=await axios.get(`https://motorcycle-service-app.onrender.com/completed/${params.id}`,{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

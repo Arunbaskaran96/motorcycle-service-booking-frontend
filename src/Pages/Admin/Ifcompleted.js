@@ -26,7 +26,7 @@ function Ifcompleted() {
             return errors
         },
         onSubmit:async(values)=>{
-            await axios.put(`http://localhost:8000/completed/${params.id}`,values,{
+            await axios.put(`https://motorcycle-service-app.onrender.com/completed/${params.id}`,values,{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

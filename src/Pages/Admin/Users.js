@@ -13,7 +13,7 @@ function Users() {
 
     const getUsers=async()=>{
         try {
-            const user=await axios.get("http://localhost:8000/users",{
+            const user=await axios.get("https://motorcycle-service-app.onrender.com/users",{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

@@ -43,7 +43,7 @@ function Bookin() {
     },
     onSubmit:async(value)=>{
       setDisable(true)
-      await axios.post("http://localhost:8000/booking",value,{
+      await axios.post("https://motorcycle-service-app.onrender.com/booking",value,{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }

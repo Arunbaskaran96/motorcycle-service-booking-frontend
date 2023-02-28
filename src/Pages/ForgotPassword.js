@@ -10,7 +10,7 @@ function ForgotPassword() {
         },
         validate:()=>{},
         onSubmit:async(value)=>{
-            await axios.post("http://localhost:8000/forgot",value)
+            await axios.post("https://motorcycle-service-app.onrender.com/forgot",value)
         }
     })
   return (

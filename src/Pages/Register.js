@@ -38,7 +38,7 @@ function Register() {
         onSubmit:async(value)=>{
           try {
             setDisable(true)
-            await axios.post("http://localhost:8000/register",value)
+            await axios.post("https://motorcycle-service-app.onrender.com/register",value)
             alert("user added")
             nav("/")
           } catch (error) {

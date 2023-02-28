@@ -13,7 +13,7 @@ function Home() {
 
   const getData=async()=>{
     try {
-      const types=await axios.get("http://localhost:8000/servicetypes",{
+      const types=await axios.get("https://motorcycle-service-app.onrender.com/servicetypes",{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }

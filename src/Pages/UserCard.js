@@ -9,7 +9,7 @@ function UserCard() {
 
     const getUser=async()=>{
         try {
-            const users=await axios.get("http://localhost:8000/usercard",{
+            const users=await axios.get("https://motorcycle-service-app.onrender.com/usercard",{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

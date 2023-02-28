@@ -13,7 +13,7 @@ function UserHistory() {
 
   const getHistory=async()=>{
     try {
-      const his=await axios.get("http://localhost:8000/userbookings",{
+      const his=await axios.get("https://motorcycle-service-app.onrender.com/userbookings",{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }
@@ -26,7 +26,7 @@ function UserHistory() {
 
   const getInprocess=async()=>{
     try {
-      const pen=await axios.get("http://localhost:8000/userbooking",{
+      const pen=await axios.get("https://motorcycle-service-app.onrender.com/userbooking",{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }

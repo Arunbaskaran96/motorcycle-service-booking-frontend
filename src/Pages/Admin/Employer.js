@@ -12,7 +12,7 @@ function Employer() {
 
   const getEmployer=async()=>{
     try {
-      const emp=await axios.get("http://localhost:8000/employers",{
+      const emp=await axios.get("https://motorcycle-service-app.onrender.com/employers",{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }
@@ -27,7 +27,7 @@ function Employer() {
   const Remove=async(_id)=>{
     try {
       alert("Do yo want to Delete?")
-      await axios.delete(`http://localhost:8000/employer/${_id}`,{
+      await axios.delete(`hhttps://motorcycle-service-app.onrender.com/employer/${_id}`,{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }

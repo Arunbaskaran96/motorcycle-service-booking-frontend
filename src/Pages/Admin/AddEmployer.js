@@ -48,7 +48,7 @@ function AddEmployer() {
           onSubmit:async(value)=>{
             try {
               setDisable(true)
-              await axios.post("http://localhost:8000/employer",value,{
+              await axios.post("https://motorcycle-service-app.onrender.com/employer",value,{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

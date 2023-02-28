@@ -48,7 +48,7 @@ function EditEmployer() {
           onSubmit:async(value)=>{
             try {
               setDisable(true)
-              await axios.put(`http://localhost:8000/employer/${params.id}`,value,{
+              await axios.put(`https://motorcycle-service-app.onrender.com/employer/${params.id}`,value,{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }
@@ -69,7 +69,7 @@ function EditEmployer() {
       const getEmployer=async()=>{
         try {
             setDisable(false)
-            const edit=await axios.get(`http://localhost:8000/employer/${params.id}`,{
+            const edit=await axios.get(`https://motorcycle-service-app.onrender.com/employer/${params.id}`,{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

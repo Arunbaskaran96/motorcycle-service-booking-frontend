@@ -14,7 +14,7 @@ function BookingDetails() {
 
     const getBooking=async()=>{
         try {
-            const booking=await axios.get(`http://localhost:8000/bookingdetail/${params.id}`,{
+            const booking=await axios.get(`https://motorcycle-service-app.onrender.com/bookingdetail/${params.id}`,{
                 headers:{
                     Authorization:`${window.localStorage.getItem("token")}`
                 }

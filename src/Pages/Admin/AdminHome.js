@@ -11,7 +11,7 @@ function AdminHome() {
     },[])
 
     const getDetails=async()=>{
-        const det=await axios.get("http://localhost:8000/bookingdetails",{
+        const det=await axios.get("https://motorcycle-service-app.onrender.com/bookingdetails",{
             headers:{
                 Authorization:`${window.localStorage.getItem("token")}`
             }
