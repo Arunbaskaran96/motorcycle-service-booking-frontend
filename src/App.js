@@ -17,12 +17,9 @@ import Users from './Pages/Admin/Users';
 import Bookin from './Pages/Bookin';
 import Details from './Pages/Details';
 import ForgotPassword from './Pages/ForgotPassword';
-import History from './Pages/History';
 import Home from './Pages/Home';
-
 import Login from './Pages/Login';
 import Register from './Pages/Register';
-import Shops from './Pages/Shops';
 import UserHistory from './Pages/UserHistory';
 
 function App() {
@@ -34,8 +31,6 @@ function App() {
       <Route path='/register' element={<Register/>}></Route>
       <Route path='/portal' element={<Portal/>}>
         <Route path='home' element={<Home/>}></Route>
-        <Route path='shop' element={<Shops/>}></Route>
-        <Route path='history' element={<History/>}></Route>
         <Route path='booking' element={<Bookin/>}></Route>
         <Route path='view/:id' element={<Details/>}></Route>
         <Route path='userhistory' element={<UserHistory/>}></Route>

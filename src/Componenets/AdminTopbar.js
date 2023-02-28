@@ -17,7 +17,7 @@ function AdminTopbar() {
             <h6 className='cmp-name'>A2 service Private Limited</h6>
         </div>
         <div className='top-mini'>
-            <h5 style={{color:"whitesmoke"}}>Admin</h5>
+            <h5 className='admintop-h5' style={{color:"whitesmoke"}}>Admin</h5>
             <button className=' btn btn-danger btn-sm' onClick={remove}>Log Out</button>
         </div>
     </div>

@@ -20,7 +20,7 @@ function BookingDetails() {
                 }
             })
             setBook(booking.data)
-            console.log(booking.data)
+            // console.log(booking.data)
             setLoading(false)
         } catch (error) {
             console.log(error)
