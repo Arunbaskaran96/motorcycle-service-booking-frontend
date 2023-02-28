@@ -60,6 +60,11 @@
     font-size: 20px;
     text-decoration: none;
     color: whitesmoke;
+    margin-bottom: 50px;
+}
+
+.sidebar-li:hover{
+    color: black;
 }
 .side-lists{
     padding: 20px;
