@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import '../Pages/Pages.css'
 
 function UserHistory() {
@@ -89,6 +90,7 @@ function UserHistory() {
                   <th scope="col">Service Type</th>
                   <th scope="col">Serviced By</th>
                   <th scope="col">Service Amount</th>
+                  <th scope="col">Reviews</th>
                 </tr>
               </thead>
               <tbody>
@@ -100,6 +102,9 @@ function UserHistory() {
                         <td>{item.type}</td>
                         <td>{item.servicedby}</td>
                         <td>{item.amount}</td>
+                        <td>
+                          <Link to={`/portal/userreview/${item._id}`} className='btn btn-info btn-sm'>Post Your Reviews</Link>
+                        </td>
                     </tr>
                     )
                   })

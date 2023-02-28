@@ -6,6 +6,7 @@ import Portal from './Componenets/Portal';
 import AddEmployer from './Pages/Admin/AddEmployer';
 import Adminhistory from './Pages/Admin/Adminhistory';
 import AdminHome from './Pages/Admin/AdminHome';
+import Adminreviews from './Pages/Admin/Adminreviews';
 import BookingDetails from './Pages/Admin/BookingDetails';
 import CompletedDetails from './Pages/Admin/CompletedDetails';
 import EditEmployer from './Pages/Admin/EditEmployer';
@@ -21,6 +22,7 @@ import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
 import UserHistory from './Pages/UserHistory';
+import Userreview from './Pages/Userreview';
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
         <Route path='booking' element={<Bookin/>}></Route>
         <Route path='view/:id' element={<Details/>}></Route>
         <Route path='userhistory' element={<UserHistory/>}></Route>
+        <Route path='userreview/:id' element={<Userreview/>}></Route>
       </Route>
       <Route path='/adminportal' element={<AdminProtal/>}>
         <Route path='adminhome' element={<AdminHome/>} ></Route>
@@ -47,6 +50,7 @@ function App() {
         <Route path='ifcompleted/:id' element={<Ifcompleted/>}></Route>
         <Route path='adminhistory' element={<Adminhistory/>}></Route>
         <Route path='historydetails/:id' element={<CompletedDetails/>}></Route>
+        <Route path='adminreview' element={<Adminreviews/>}></Route>
       </Route>
     </Routes>
     </BrowserRouter>

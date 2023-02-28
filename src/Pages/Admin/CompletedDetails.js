@@ -20,7 +20,7 @@ function CompletedDetails() {
             })
             // console.log(his.data.serviceid.book)
             setHistory(his.data)
-            console.log(his.data)
+            // console.log(his.data)
         } catch (error) {
             console.log(error)
         }

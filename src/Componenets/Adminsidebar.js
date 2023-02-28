@@ -18,6 +18,9 @@ function Adminsidebar() {
             <li className='admin-li'>
             <Link className='adminside-link' to='/adminportal/adminhistory'>History</Link>
             </li>
+            <li className='admin-li'>
+            <Link className='adminside-link' to='/adminportal/adminreview'>Reviews</Link>
+            </li>
         </ul>
     </div>
   )
