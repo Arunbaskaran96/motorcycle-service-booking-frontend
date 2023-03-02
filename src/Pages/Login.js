@@ -36,7 +36,7 @@ function Login() {
                 }else{
                     nav("/adminportal/adminhome")
                 }
-                console.log(user)
+                // console.log(user)
             } catch (error) {
                 setDisable(false)
                 alert("Incorrect username/password")

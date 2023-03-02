@@ -13,7 +13,7 @@ function Userreview() {
         validate:()=>{},
         onSubmit:async(value)=>{
             try {
-                await axios.post(`http://localhost:8000/review/${params.id}`,value,{
+                await axios.post(`https://motorcycle-service-app.onrender.com/review/${params.id}`,value,{
                     headers:{
                         Authorization:`${window.localStorage.getItem("token")}`
                     }

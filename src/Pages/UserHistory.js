@@ -33,7 +33,7 @@ function UserHistory() {
         }
       })
       setPending(pen.data)
-      console.log(pen.data)
+      // console.log(pen.data)
 
     } catch (error) {
       console.log(error)

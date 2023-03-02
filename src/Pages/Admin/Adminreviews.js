@@ -10,7 +10,7 @@ function Adminreviews() {
 
     const getReviews=async()=>{
         try {
-            const rev=await axios.get("http://localhost:8000/reviews")
+            const rev=await axios.get("https://motorcycle-service-app.onrender.com/reviews")
             setReview(rev.data)
             console.log(rev.data)
         } catch (error) {
