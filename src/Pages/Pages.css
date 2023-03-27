@@ -215,3 +215,42 @@
     box-shadow: 10px 10px #888888;
     padding: 20px;
 }
+
+
+.login-img{
+    width: 102%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-leftside{
+    background-color: rgba(54, 179, 175, 0.904);
+    height: 100vh;
+}
+.login-heading{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.login-int{
+    width: 350px;
+    height: 35px;
+    border: none;
+}
+
+.login-btn{
+    width: 350px;
+    margin-left: 270px;
+}
+.login-lbl{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.login-rightside{
+    background-color: whitesmoke;
+}
+
+.social-media-logo{
+    height: 50px;
+    margin: 10px;
+}
