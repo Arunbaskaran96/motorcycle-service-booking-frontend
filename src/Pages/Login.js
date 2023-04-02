@@ -118,13 +118,13 @@ function Login() {
                 <div className='row' style={{marginTop:"10px"}}>
                     <div className='col-6'>
                         <h6 style={{fontWeight:"bold"}}>User Credential</h6>
-                        <p style={{margin:"0px"}}>Email:madan@gmail.com</p>
-                        <p>Password:madan</p>
+                        <p style={{margin:"0px"}}>Email:arundhilla@gmail.com</p>
+                        <p>Password:Arun</p>
                     </div>
                     <div className='col-6'>
                     <h6 style={{fontWeight:"bold"}}>Admin Credential</h6>
-                        <p style={{margin:"0px"}}>Email:kavin@gmail.com</p>
-                        <p>Password:Kavin</p>
+                        <p style={{margin:"0px"}}>Email:admin@gmail.com</p>
+                        <p>Password:Admin</p>
                     </div>
                 </div>
             </div>
