@@ -87,14 +87,22 @@
 }
 
 .img-card{
-    height: 100px;
-    width: 200px;
+    height: 120px;
+    width: 300px;
+    object-fit: contain;
 }
 .cards{
-    margin: 15px;
-    
+    margin: 25px;
+    box-shadow: 5px 5px 5px gray;
 }
-
+.card-text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.homecard-bttn{
+    margin-left: 70px;
+}
 
 /* booking */
 .booking-container{
@@ -119,6 +127,9 @@
     border: 1px solid black;
     margin: 40px;
     box-shadow: 10px 10px #888888;
+    margin-top: 8vh;
+    margin-left: 150px;
+    align-items: center;
 }
 .card-row{
     text-align: end;
@@ -130,14 +141,30 @@
     width: 300px;
 }
 .home-card-container{
-    box-shadow: 10px 10px #888888;
-    border: 1px solid black;
+    /* box-shadow: 10px 10px #888888; */
+    /* border: 1px solid black;
     margin-top: 30px;
-    padding-left: 80px;
+    padding-left: 80px; */
+    margin-left: 55px;
+}
+.homepage-container{
+    background-color: slategray;
+    margin-top: 8vh;
+    margin-left: 140px;
+}
+
+.homepage-heading{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 .table-container{
     margin-left: 50px;
     margin-top: 50px;
+}
+.historypage-container{
+    margin-top: 8vh;
+    margin-left: 150px;
 }
 
 
@@ -149,6 +176,10 @@
     border: 1px solid black;
     margin-top: 80px;
     box-shadow: 10px 10px #888888;
+}
+.booingpage-container{
+    margin-top: 8vh;
+    margin-left: 150px;
 }
 
 .emp-int{
@@ -253,4 +284,28 @@
 .social-media-logo{
     height: 50px;
     margin: 10px;
+}
+
+.userreview-container{
+    margin-top: 8vh;
+    margin-left: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-color: darkgrey;
+}
+.userreview-heading{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.userreview-int{
+    height: 40px;
+    width: 250px;
+}
+.userreview-card{
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 5px 5px 5px black;
 }

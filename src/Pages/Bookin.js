@@ -53,7 +53,7 @@ function Bookin() {
     }
   })
   return (
-    <div style={{backgroundColor:"whitesmoke"}}>
+    <div className='booingpage-container' style={{backgroundColor:"whitesmoke"}}>
         <Link to='/portal/home' className='btn btn-info'>Back</Link>
         <div className='booking-container'>
           <form onSubmit={formik.handleSubmit}>

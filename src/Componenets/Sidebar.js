@@ -7,8 +7,12 @@ function Sidebar() {
   return (
     <div className='side-conatiner'>
         <ul className='side-lists'>
-          <Link className='sidebar-li' to='/portal/home' >Service</Link><br></br>
-          <Link className='sidebar-li' to='/portal/userhistory' >History</Link><br></br>
+          <Link className='sidebar-li' to='/portal/home' >
+            <li className='side-container-list'>Service</li>
+          </Link><br></br>
+          <Link className='sidebar-li' to='/portal/userhistory' >
+          <li className='side-container-list'>History</li>
+          </Link><br></br>
         </ul>
     </div>
   )

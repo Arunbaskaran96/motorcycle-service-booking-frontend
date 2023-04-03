@@ -32,14 +32,16 @@ function Home() {
         <span class="visually-hidden">Loading...</span>
       </div>
      </div>:   
-     <div className='container'>
-      <div className='row' style={{marginTop:"10px"}}>
-        <div className='col-3'>
+     <div className='container-fluid homepage-container'>
+      <div className='row' style={{marginTop:"10px" ,textAlign:"end"}}>
+        <div className='col-12'>
           <Link to='/portal/booking' className='btn btn-success'>Book a service</Link>
         </div>
       </div>
       <div className='row home-card-container'>
-        <h5>Available services</h5>
+        <h5 className='homepage-heading'>Available services</h5>
+      </div>
+      <div className='row' style={{paddingLeft:"80px"}}>
           {
             service.map((item)=>{
               return(
@@ -48,7 +50,7 @@ function Home() {
                     <img  src={item.img} class="card-img-top img-card" alt="..."/>
                     <div class="card-body">
                       <p class="card-text">{item.title}</p>
-                      <Link className='btn btn-primary ' to={`/portal/view/${item._id}`}>View details</Link>
+                      <Link className='btn btn-primary homecard-bttn' to={`/portal/view/${item._id}`}>View details</Link>
                     </div>
                   </div>
                 </div>)})}

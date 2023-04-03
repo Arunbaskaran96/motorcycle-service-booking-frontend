@@ -11,6 +11,11 @@
     list-style: none;
     font-size: 20px;
 }
+.top-container{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
 
 
 .admintop-container{
@@ -53,21 +58,31 @@
 }
 .side-conatiner{
     width: 22vh;
-    height: 92vh;    
+    height: 100vh;    
     background-color: rgb(8, 152, 219);
+    margin-top: 8vh;
+    position: fixed;
+    z-index: 9999;
 }
 .sidebar-li{
     font-size: 20px;
     text-decoration: none;
     color: whitesmoke;
-    margin-bottom: 50px;
 }
 
 .sidebar-li:hover{
     color: black;
+    background-color: gray;
 }
 .side-lists{
     padding: 20px;
+}
+
+.side-container-list{
+    font-size: 23px;
+}
+.side-container-list:hover{
+    background-color: gray;
 }
 
 

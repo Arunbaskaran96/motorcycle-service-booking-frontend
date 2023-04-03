@@ -40,7 +40,7 @@ function UserHistory() {
     }
   }
   return (
-    <div className='container'>
+    <div className='container historypage-container'>
       <div className='row' style={{textAlign:"center"}}>
         <div className='col-12'>
           <h3>Inprocess</h3>

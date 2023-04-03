@@ -25,12 +25,12 @@ function Userreview() {
         }
     })
   return (
-    <div>
+    <div className='userreview-container'>
         <form onSubmit={formik.handleSubmit}>
-            <div>
-                <label>Your Review</label><br></br>
-                <input name='review' value={formik.values.review} onChange={formik.handleChange}></input><br></br>
-                <input type='submit' value="Submit"></input>
+            <div className='userreview-card'>
+                <label className='userreview-heading'>Your Review</label><br></br>
+                <input  className='userreview-int' name='review' value={formik.values.review} onChange={formik.handleChange}></input><br></br>
+                <input className='btn btn-success ' style={{marginTop:"10px"}} type='submit' value="Submit"></input>
             </div>
         </form>
     </div>
