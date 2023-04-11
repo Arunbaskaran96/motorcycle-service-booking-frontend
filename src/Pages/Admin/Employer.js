@@ -42,7 +42,7 @@ function Employer() {
     <div className='container'>
     <div className='row' style={{marginTop:"20px"}}>
       <div className='col-2'>
-        <Link to='/adminportal/addemployer' className='btn btn-success'>Add Employer</Link>
+        <Link to='/adminportal/addemployer' className='btn btn-success'>Add Employee</Link>
       </div>
         <div className='col-12 '>
             <div className='table-container table-detail'>

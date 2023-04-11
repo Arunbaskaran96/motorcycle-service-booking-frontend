@@ -13,7 +13,7 @@ function Adminsidebar() {
             <Link className='adminside-link' to='/adminportal/users'>Users</Link>
             </li>
             <li className='admin-li'>
-            <Link className='adminside-link' to='/adminportal/employers'>Employers</Link>
+            <Link className='adminside-link' to='/adminportal/employers'>Employee's</Link>
             </li>
             <li className='admin-li'>
             <Link className='adminside-link' to='/adminportal/adminhistory'>History</Link>
